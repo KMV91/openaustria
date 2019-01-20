@@ -167,6 +167,7 @@ header{
 .h2-shell>h2{
     display: inline-block;
     background-color: white;
+    padding: 0 50px;
 }
 .consultation-form input{
     height: 50px;
