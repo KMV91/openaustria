@@ -1,6 +1,9 @@
-$(document).ready(function(){
-    
-    $('body').scrollspy({ target: '#counter-result-controll', offset: 450 });
+$(window).load(function(){
+    $('body').scrollspy({ target: '#counter-result-controll', offset: $(window).height()* 0.8 });
+    console.log($(window).height()/2);
+});
+
+$(document).ready(function(){ 
     
     //init counter
     var options = {
