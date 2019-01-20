@@ -1,5 +1,7 @@
 $(document).ready(function(){
     
+    $('body').scrollspy({ target: '#counter-result-controll', offset: 450 });
+    
     //init counter
     var options = {
         useEasing: true, 
@@ -13,10 +15,10 @@ $(document).ready(function(){
         counters.push(new CountUp($(this).attr('id'), 0, $(this).attr('data-countEnd'), 0, 2.5, options));
     });
     
-    $.each(counters, function(index, value){
-        value.start(function(){
-            console.log(1);
+    $(window).on('activate.bs.scrollspy', function () {
+        $.each(counters, function(index, value){
+            value.start();
         });
     });
-
+    
 });

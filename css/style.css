@@ -237,3 +237,9 @@ footer p{
     font-size: 30px;
     font-weight: bold;
 }
+.body {
+    position: relative;
+}
+#counter-result-controll {
+    display: none;
+}
