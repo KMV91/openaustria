@@ -236,10 +236,16 @@ footer p{
     color: #fff;
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
 }
 .body {
     position: relative;
 }
 #counter-result-controll {
     display: none;
+}
+.counter-result_item-title {
+    font-size: 23px;
+    color: #fff;
+    text-align: center;
 }
