@@ -220,3 +220,20 @@ footer p{
 .footer-social a{
     color: white;
 }
+
+.counter-result {
+    background: url(../img/bgjobs.jpg);
+    padding: 50px 0;
+}
+.counter-result_header {
+    margin-bottom: 50px;
+}
+.counter-result_header h2 {
+    text-align: center;
+    color: #fff;
+}
+.counter-result_num {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
