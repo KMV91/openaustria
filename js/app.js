@@ -1,5 +1,6 @@
 $(window).load(function(){
     $('body').scrollspy({ target: '#counter-result-controll', offset: $(window).height()* 0.8 });
+    new WOW().init();
 });
 
 $(document).ready(function(){ 
