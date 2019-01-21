@@ -154,7 +154,7 @@ header{
     position: relative;
     border: 5px solid #af1b3f;
     padding: 5em;
-    margin:5em 0em 0em 0em;
+    margin:5em 0em 1em 0em;
 }
 .h2-shell{
     width: 100%;
@@ -193,6 +193,49 @@ header{
 }
 .tabs-services{
     padding: 2em 1em;
+}
+.rev-single{
+    background-color: #af1b3f;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 1em;
+    margin-bottom: 20px;
+}
+.rev-img{
+    text-align: center;
+}
+.rev-img-container{
+    border-radius: 100px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.rev-img-container img{
+    max-width: 100%;
+}
+.rev-text h5{
+    font-size: 30px;
+    font-weight: 700; 
+}
+.red-x,.blue-v{
+    font-size: 18px;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.red-x i,.blue-v i{
+    padding-right: 5px;
+}
+.red-x i{
+    color: #e67490; 
+}
+.blue-v i{
+    color: #497dc1;
+}
+.tabs-services span{
+    color: #af1b3f;
 }
 footer{
     background-color: #af1b3f;
