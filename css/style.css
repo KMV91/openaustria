@@ -137,6 +137,40 @@ header{
 .accordion-pic img{
     width: 100%;
 }
+.accordion .card{
+    margin-bottom: 10px;
+}
+.category-item{
+    display: inline-block;
+    background: url(../img/panorama.jpg) center;
+    background-size: 150% auto;
+    background-color: black;
+    width: 100%;
+    padding: 6em;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    text-transform: uppercase;
+    transition: .5s;
+    border:5px solid #af1b3f;
+    margin-bottom: 1em;
+}
+.category-item:hover{
+    text-decoration: none;
+    color: white;
+    background-size: 130% auto;
+}
+.category-item h4{
+    position: absolute;
+    z-index: 20;
+    bottom: 0;
+    left:0;
+    padding: 1em;
+}
+
+
+
+
 .reason{
     position: relative;
     padding: 1em;
