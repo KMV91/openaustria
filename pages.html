@@ -7,7 +7,9 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> 
-    <link rel="stylesheet" type="text/css" href="css/style.css">   
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"> </script>  
 </head>
 <body>
 <header class="header-pages">	
@@ -56,16 +58,26 @@
       <div class="row">
         <div class="bottomhead-nav-shell">
           <nav class="navbar navbar-expand-lg bottomhead-nav">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Услуги<span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav nav-pills mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Услуги</a>
+                      <div class="dropdown-menu drop-menu">
+                        <a class="dropdown-item" href="#">Поиск жилья</a>
+                        <a class="dropdown-item" href="#">Устройство в ВУЗ</a>
+                        <a class="dropdown-item" href="#">Помощь с языком</a>
+                      </div>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Вузы</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Информация поступающим</a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Информация поступающим</a>
+                      <div class="dropdown-menu drop-menu">
+                        <a class="dropdown-item" href="#">Условия поступления</a>
+                        <a class="dropdown-item" href="#">Подготовка</a>
+                      </div>
                     </li>
+                    
                 </ul> 
                 <div class="social">
                   <a href=""><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
