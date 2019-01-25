@@ -333,7 +333,9 @@ footer{
     color: white;
 }
 .footer-logo a{
-    
+    font-family: "ACLine";
+    font-size:30px;
+    color: white;
 }
 .footer-phone>i,.footer-phone>p,.footer-contacts>i,.footer-contacts>p,.footer-social>i{
     display: inline-block;
